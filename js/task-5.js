@@ -1,7 +1,7 @@
 const buttonEl = document.querySelector('.change-color');
 buttonEl.addEventListener('click', onButtonElClick);
 
-function onButtonElClick(event) {
+function onButtonElClick() {
   const bodyEl = document.querySelector('body');
   const colorSpanEl = document.querySelector('.color');
   bodyEl.style.backgroundColor = getRandomHexColor();
