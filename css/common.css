@@ -1,0 +1,199 @@
+a {
+  color: #2e2f42;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+button {
+  cursor: pointer;
+}
+/* task 1 */
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background: #f6f6fe;
+  list-style: none;
+  margin-bottom: 24px;
+}
+.item > h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+.item > ul {
+  padding: 0;
+}
+.item li {
+  width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-right: auto;
+  padding: 8px 16px;
+}
+
+/* task 2 */
+.item > ul .gallery {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.gallery-item {
+  list-style: none;
+}
+
+/* task 3 */
+#name-input {
+  width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+}
+
+/* task 4 */
+
+.login-form > label {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+}
+
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.login-form > button {
+  font-weight: 500;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  background-color: #4e75ff;
+  border: none;
+  margin-top: 8px;
+}
+
+/* task 5 */
+.widget {
+  text-align: center;
+}
+.color {
+  display: block;
+  margin-bottom: 16px;
+}
+.change-color {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  background-color: #4e75ff;
+}
+
+/* task 5 */
+
+#controls {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  background: #f6f6fe;
+  padding: 32px;
+}
+
+#controls > input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+[data-create] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+}
+[data-destroy] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  background-color: #ff4e4e;
+  color: #fff;
+  border: none;
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  padding: 32px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
