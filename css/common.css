@@ -23,9 +23,6 @@ p {
 
 img {
   display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
 }
 body {
   color: #2e2f42;
@@ -52,9 +49,6 @@ button {
   letter-spacing: 0.04em;
   margin-bottom: 16px;
 }
-.item > ul {
-  padding: 0;
-}
 .item li {
   width: 360px;
   border: 1px solid #808080;
@@ -65,7 +59,7 @@ button {
 }
 
 /* task 2 */
-.item > ul .gallery {
+.gallery {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
