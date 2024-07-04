@@ -25,9 +25,9 @@ function createBoxes(amount) {
   let size = 30;
   for (let i = 0; i < amount; i++) {
     {
-      size += 10;
       const color = getRandomHexColor();
       markup += `<div style="width: ${size}px; height: ${size}px; background-color: ${color}"></div>`;
+      size += 10;
     }
   }
   refs.boxes.insertAdjacentHTML('beforeend', markup);
